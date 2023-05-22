@@ -1,0 +1,244 @@
+:root {
+    --font-poppins: 'Poppins';
+
+}
+.header {
+    background-color: #000;
+    padding-bottom: 80px;
+
+}
+.header-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    background-color: #000;
+}
+.fa-bars {
+    display: none;
+    color: #fff;
+    font-size: 25px;
+    
+}
+.ul-li-item {
+    font-family: var(--font-poppins);
+    width: 505px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #fff;
+}
+.nav-li-item:hover {
+    color: #FF7420;
+    border-bottom: 2px solid #FF7420;
+    cursor: pointer;
+}
+.language-selector {
+    border: none;
+    font-family: var(--font-poppins);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    outline: none;
+    margin-right: 24px;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
+.contact-button {
+    background-color: #FF7420;
+    width: 194px;
+    height: 66px;
+    border: none;
+    border-radius: 15px;
+    color: #fff;
+    font-family: var(--font-poppins);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    cursor: pointer;
+    transition: 0.20s;
+}
+.contact-button:hover {
+    opacity: 0.9;
+}
+/* HEADER */
+/* FIRST SECTION */
+.background-image {
+    background-image: url(../images/photo_construction-workers-surveying-site\ 1.jpg);
+    width: 100%;
+    height: 884px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 154px 0 0 122px;
+}
+.title-text {
+    max-width: 607px;
+    width: 100%;
+}
+.title-text h1 {
+    font-family: var(--font-poppins);
+    color: #fff;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 96px;
+    max-width: 459px;
+    width: 100%;
+}
+.span-item {
+    color: #FF7420;
+}
+.title-text p {
+    color: #fff;
+    font-family: var(--font-poppins);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 14px 0 75px 0;
+}
+.buttons {
+    display: flex;
+    align-items: center;
+}
+.first-button,
+.second-button {
+    width: 246px;
+    height: 66px;
+    background: #FF7420;
+    border: none;
+    border-radius: 15px;
+    font-family: var(--font-poppins);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+/* .first-button {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+} */
+.second-button {
+    width: 208px;
+    height: 66px;
+    background-color: #fff;
+    color: #191A19;
+    margin-left: 24px;
+}
+.first-button:hover,
+.second-button:hover {
+    opacity: 0.8;
+}
+/* FIRST SECTION */
+
+/* SECOND SECTION  */
+
+.background {
+    background-color: #FF7420;
+    padding: 57px 0 65px 0;
+}
+.flex-div-block {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.second-section-title {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.second-section-title h3 {
+    font-family: var(--font-poppins);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 96px;
+    color: #191A19;
+}
+.list-block {
+    max-width: 750px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-family: var(--font-poppins);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+.list:hover {
+    color: #191A19;
+    border-bottom: 2px solid #191A19;
+    outline: none;
+
+}
+.background-image01,
+.background-image02,
+.background-image03 {
+    background-image: url(../images/donny-jiang-42gFAgdIUC8-unsplash\ 1.jpg);
+    /* max-width: 485px;
+    width: 100%;
+    height: 613px; */
+    max-width: 385px;
+    width: 100%;
+    height: 513px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+
+}
+.background-image02 {
+    background-image: url(../images/daniele-buso-73AF6JIEBl8-unsplash\ 1.jpg);
+}
+.background-image03 {
+    background-image: url(../images/jack-b-jQByZkbC5Q4-unsplash\ 1.jpg);
+}
+.title-text-block {
+    padding: 422px 0 22px 0;
+}
+.background-image01 h3,
+.background-image01 h4,
+.background-image02 h3,
+.background-image02 h4,
+.background-image03 h3,
+.background-image03 h4 {
+    font-family: var(--font-poppins);
+    color: #fff;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+}
+.background-image01 h4 {
+    font-size: 20px;
+    line-height: 30px;
+}
+.p-item {
+    font-family: var(--font-poppins);
+    color: #191A19;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+   display: flex;
+   justify-content: flex-end;
+}
+.fa-circle-arrow-right {
+    margin: 32px 40px 0 13px;
+}
+
+/* SECOND SECTION  */
