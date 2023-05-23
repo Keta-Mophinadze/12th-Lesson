@@ -1,119 +1,318 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles/reset.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <link rel="stylesheet" href="styles/style.css">
-  <link rel="stylesheet" href="styles/responsive.css">
-  <link rel="stylesheet" href="styles/fonts.css">
-  <title>Home Page</title>
-</head>
-<body>
-  <!-- HEADER -->
-  <header class="header">
-    <div class="header-container">
-      <a href="index.html">
-        <img src="images/Logo.svg" alt="logo">
-      </a>
-      <nav class="navigation">
-        <ul class="ul-li-item">
-          <li class="nav-li-item">Home</li>
-          <li class="nav-li-item">About Us</li>
-          <li class="nav-li-item">Service</li>
-          <li class="nav-li-item">Project</li>
-        </ul>
-      </nav>
-      <i class="fa-solid fa-bars"></i>
-      <!-- <i class="fa-solid fa-bars"></i> -->
-      <div class="selector">
-        <form action="">
-          <label for="mylanguage"></label>
-          <select class="language-selector" name="languages" id="mylanguage">
-            <option value="english">English</option>
-            <option value="german">German</option>
-            <option value="swedish">Swedish</option>
-            <option value="french">French</option>
-            <option value="italian">Italian</option>
-            <option value="japanese">Japanese</option>
-          </select>
-          <input class="contact-button" type="button" value="Contact Us">
-        </form>
-
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/responsive.css" />
+    <link rel="stylesheet" href="styles/fonts.css" />
+    <title>Home Page</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header">
+      <div class="header-container">
+        <a href="index.html">
+          <img src="images/Logo.svg" alt="logo" />
+        </a>
+        <nav class="navigation">
+          <ul class="ul-li-item">
+            <li class="nav-li-item">Home</li>
+            <li class="nav-li-item">About Us</li>
+            <li class="nav-li-item">Service</li>
+            <li class="nav-li-item">Project</li>
+          </ul>
+        </nav>
+        <i class="fa-solid fa-bars"></i>
+        <div class="selector">
+          <form action="">
+            <label for="mylanguage"></label>
+            <select class="language-selector" name="languages" id="mylanguage">
+              <option value="english">English</option>
+              <option value="german">German</option>
+              <option value="swedish">Swedish</option>
+              <option value="french">French</option>
+              <option value="italian">Italian</option>
+              <option value="japanese">Japanese</option>
+            </select>
+            <input class="contact-button" type="button" value="Contact Us" />
+          </form>
+        </div>
       </div>
-      
+    </header>
+    <!-- HEADER -->
+    <main>
+      <!-- FIRST SECTION -->
+      <section>
+        <div class="background-image">
+          <div class="title-text">
+            <h1>We Prepare For The <span class="span-item">Future</span></h1>
+            <p>
+              We provide the best architectural design, contruction, and
+              building maintance services for you.
+            </p>
+          </div>
 
-      
-    </div>
+          <div class="buttons">
+            <button class="first-button">Our Services</button>
+            <button class="second-button">View Project</button>
+          </div>
+        </div>
+      </section>
+      <!-- FIRST SECTION -->
 
-  </header>
-  <!-- HEADER -->
-  <main>
-    <!-- FIRST SECTION -->
-        <section>
-          <div class="background-image">
-            <div class="title-text">
-              <h1>We Prepare For The <span class="span-item">Future</span></h1>
-              <p>We provide the best architectural design, contruction, and
-              building maintance services for you.</p>
+      <!-- SECOND SECTION -->
+      <section class="background">
+        <div class="second-section-title">
+          <h3>Featured Project</h3>
+          <ul class="list-block">
+            <li class="list">All Works</li>
+            <li class="list">Construction</li>
+            <li class="list">Architecture</li>
+            <li class="list">Building</li>
+            <li class="list">Renovations</li>
+            <li class="list">Interior</li>
+          </ul>
+        </div>
+
+        <div class="flex-div-block">
+          <div class="background-image01">
+            <div class="title-text-block">
+              <h3>Skyskuy Tower</h3>
+              <h4>Renovation &amp; Architecture</h4>
             </div>
-            <div class="buttons">
-              <button class="first-button">Our Services</button>
-              <button class="second-button">View Project</button>
           </div>
 
-        </section>
-    <!-- FIRST SECTION -->
+          <div class="background-image02">
+            <div class="title-text-block">
+              <h3>The Fallingwater House</h3>
+              <h4>Building &amp; Interior</h4>
+            </div>
+          </div>
 
-    <!-- SECOND SECTION -->
-    <section class="background">
-
-      <div class="second-section-title">
-        <h3>Featured Project</h3>
-        <ul class="list-block">
-          <li class="list">All Works</li>
-          <li class="list">Construction</li>
-          <li class="list">Architecture</li>
-          <li class="list">Building</li>
-          <li class="list">Renovations</li>
-          <li class="list">Interior</li>
-        </ul>
-      </div>
-
-      <div class="flex-div-block">
-        <div class="background-image01">
-          <div class="title-text-block">
-            <h3>Skyskuy Tower</h3>
-            <h4>Renovation &amp; Architecture</h4>
+          <div class="background-image03">
+            <div class="title-text-block">
+              <h3>Skyskuy Tower</h3>
+              <h4>Renovation &amp; Architecture</h4>
+            </div>
           </div>
         </div>
+        <div class="p-item">
+          <p>
+            Explore All Projects <i class="fa-solid fa-circle-arrow-right"></i>
+          </p>
+        </div>
+      </section>
+      <!-- SECOND SECTION -->
 
-        <div class="background-image02">
-          <div class="title-text-block">
-            <h3>The Fallingwater House</h3>
-            <h4>Building &amp; Interior</h4>
-          </div>
+      <!-- THIRD SECTION -->
+      <section>
+        <div class="background-color">
+          <h6 class="main-title">What Our Client Says</h6>
+          <p>
+            I am very satisfied with the services. Their team is very
+            professional and efficient in completing our project on time and at
+            a very affordable cost. The quality of their work is very good and I
+            highly recommend this company for any construction project.
+          </p>
+          <h6 class="name">Tom DeLonge</h6>
+          <h6 class="occupation">CEO, Lexmark</h6>
+        </div>
+      </section>
+      <!-- THIRD SECTION -->
+
+      <!-- FOURTH SECTION -->
+
+      <section class="section-bg">
+        <div class="fourth-section-title">
+          <h1>Leading Way In Building & Civil Construction</h1>
         </div>
 
-        <div class="background-image03">
-          <div class="title-text-block">
-            <h3>Skyskuy Tower</h3>
-            <h4>Renovation &amp; Architecture</h4>
+        <div class="flex-block-container">
+          <!-- 1 BOX -->
+          <div class="form-wrapper">
+            <h6 class="form-title">Request A Quote</h6>
+            <p>
+              Complete control over products allow us to our customers the best
+              quality prices and services. We take great pride in everything
+              that we do in Jhontraktor
+            </p>
+            <form action="">
+              <label for="name"></label>
+              <input
+                class="form-label-item"
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Name"
+              />
+
+              <label for="myemail"></label>
+              <input
+                class="form-label-item"
+                type="email"
+                name="myemail"
+                id="myemail"
+                placeholder="Email"
+              />
+
+              <label for="phonenumber"></label>
+              <input
+                class="form-label-item"
+                type="tel"
+                name="phonenumber"
+                id="phonenumber"
+                placeholder="Phone"
+              />
+
+              <select
+                class="form-label-item"
+                name="select-services"
+                id="your-service"
+              >
+                <option value="none" selected disabled hidden>
+                  Select Your Service
+                </option>
+                <option value="menu">Menu</option>
+                <option value="help">Help</option>
+                <option value="send-an-email">Send an Emal</option>
+              </select>
+            </form>
+            <textarea
+              class="feedback-block"
+              name="feedback"
+              id="mytext"
+              placeholder="Additional Details..."
+            ></textarea>
+            <button class="submit-button">Submit Request</button>
           </div>
+          <!-- 1 BOX -->
+
+          <!-- 2 BOX -->
+          <div class="contact-info">
+            <h5>Contact Info</h5>
+
+            <div class="location">
+              <h6>Our Location</h6>
+              <a
+                class="contact-information"
+                href="https://goo.gl/maps/Wtg7m3T343MVRypA7"
+                target="_blank"
+                >18 Office Park Building 21th Floor Unit C. Jl. TB Simatupang
+                Kav. 18, Jakarta Selatan ,12520</a
+              >
+            </div>
+
+            <div class="contact-details">
+              <h6>Quick Contact</h6>
+              <span class="span-tag"
+                >Call Us:
+                <a class="contact-information" href="callto:(+62)87724697246"
+                  >(+62) 877-2469-7246</a
+                >
+              </span>
+              <span class="span-tag"
+                >Email:
+                <a
+                  class="contact-information"
+                  href="mailto:contact@jhontraktor.co"
+                  >contact@jhontraktor.co</a
+                >
+              </span>
+            </div>
+
+            <div class="working-hours">
+              <h6>Opening Hours</h6>
+              <span class="contact-information">Monday - Friday</span>
+              <span class="contact-information">09:00 AM - 06:00 PM</span>
+            </div>
+
+            <p>Do You Have Any Question, Just Contact Us To Get Help!</p>
+            <button class="contact-us-button">Contact Us</button>
+          </div>
+          <!-- 2 BOX -->
+        </div>
+      </section>
+      <!-- FOURTH SECTION -->
+    </main>
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer-icon">
+        <img src="images/JHONTRAKTOR.svg" alt="logo" />
+        <div class="right-side-input">
+          <form action="">
+            <label class="label-text" for="subscribe"
+              >Subscribe To Our Newslatter :</label
+            >
+            <input
+              class="email-input"
+              type="email"
+              name="subscribe"
+              id="subscribe"
+              placeholder="Enter your email addres"
+            />
+          </form>
+        </div>
+      </div>
+
+      <div class="footer-text-block">
+        <div class="about-us">
+          <h6 class="footer-contact-info">About Us</h6>
+          <p class="footer-text paragraph">
+            We have the confidence to provide the best service for you, with the
+            support of Professional and Certified HR that we currently have and
+            the high-quality materials we use and structured work techniques, we
+            will be able to realize timely completion of work.
+          </p>
         </div>
 
+        <div class="map-block">
+          <h6 class="footer-contact-info">Office</h6>
+          <a class="footer-text" href="https://goo.gl/maps/j2rnKE1V8gkzw2MY6"
+            >18 Office Park Building 21th Floor Unit C. Jl. TB Simatupang Kav.
+            18, Jakarta Selatan ,12520</a
+          >
+        </div>
 
+        <div class="email-block">
+          <h6 class="footer-contact-info">Contact</h6>
+          <span class="span-tag"
+            >Email:
+            <a class="contact-information" href="mailto:contact@jhontraktor.co"
+              >contact@jhontraktor.co</a
+            >
+          </span>
+          <span class="span-tag"
+            >Phone:
+            <a class="contact-information" href="callto:(+62)87724697246"
+              >(+62) 877-2469-7246</a
+            >
+          </span>
+        </div>
 
+        <div class="list-container">
+          <h6 class="footer-contact-info">Link</h6>
+          <ul class="footer-text">
+            <li>Home</li>
+            <li>About Us</li>
+            <li>Service</li>
+            <li>Project</li>
+          </ul>
+        </div>
       </div>
-      <div class="p-item">
-        <p>Explore All Projects <i class="fa-solid fa-circle-arrow-right"></i></p>
-      </div>
-    </section>
-    <!-- SECOND SECTION -->
 
-  </main>
-  
-</body>
+      <div class="footer-icon-div">
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-medium"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-facebook"></i>
+      </div>
+    </footer>
+  </body>
 </html>
